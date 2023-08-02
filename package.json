@@ -9,10 +9,21 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.14.1",
+    "@mui/material": "^5.14.2",
+    "bcrypt": "^5.1.0",
     "eslint": "8.45.0",
     "eslint-config-next": "13.4.12",
+    "framer-motion": "^10.14.0",
+    "mongoose": "6.11.4",
     "next": "13.4.12",
+    "next-auth": "^4.22.3",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-hook-form": "^7.45.2",
+    "react-icons": "^4.10.1",
+    "swr": "^2.2.0"
   }
 }

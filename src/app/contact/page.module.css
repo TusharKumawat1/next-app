@@ -1,0 +1,50 @@
+.title{
+    font-size: 3rem;
+    margin-bottom: 30px;
+}
+.content{
+    display: flex;
+}
+.imgContainer{
+    flex:1;
+}
+.form{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.input{
+    color:#ddd;
+    font-size: 18px;
+    font-weight: bold;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    background: none;
+   
+}
+.input::placeholder{
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+.input:focus{
+    outline: none;
+}
+
+.textarea{
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    background: none;
+    color:#ddd;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+}
+.textarea::placeholder{
+    font-size: 18px;
+    font-weight: bold;
+    padding: 2px;
+}

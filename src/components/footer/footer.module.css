@@ -1,0 +1,10 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin-block: 20px;
+}
+.items{
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+}
