@@ -1,8 +1,8 @@
 "use client";
-import React, { useEffect, useState } from "react";
+
 import styles from "./login.module.css";
-import { getProviders, signIn, useSession } from "next-auth/react";
-import { useRouter, useSearchParams } from "next/navigation";
+import { signIn, useSession } from "next-auth/react";
+import { useRouter, } from "next/navigation";
 import Link from "next/link";
 import { useForm } from 'react-hook-form';
 export default function page() {

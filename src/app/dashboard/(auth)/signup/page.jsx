@@ -4,7 +4,7 @@ import { useForm } from 'react-hook-form';
 import styles from './signup.module.css'
 import Link from 'next/link'
 import { useRouter } from 'next/navigation';
-import Image from 'next/image';
+
 
 export default function page() {
 

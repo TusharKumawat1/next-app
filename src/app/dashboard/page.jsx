@@ -5,7 +5,6 @@ import React from 'react'
 import useSWR from 'swr'
 import styles from './dash.module.css'
 import Image from "next/image";
-import Button from "@/components/button/Button";
 import { useForm } from 'react-hook-form';
 import DeleteIcon from '@mui/icons-material/Delete';
 export default function page() {
