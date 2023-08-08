@@ -13,6 +13,7 @@ export const TheamProvider=({children})=>{
         }else{
             setTheam(<DarkModeIcon/>)
         }
+       
     }
     return(<TheamContext.Provider value={{toggle,mode,theam,setTheam}}>
        <div className={`theam ${mode}`}> {children} </div> 
