@@ -5,7 +5,7 @@ import { signIn, useSession } from "next-auth/react";
 import { useRouter, } from "next/navigation";
 import Link from "next/link";
 import { useForm } from 'react-hook-form';
-export default function page() {
+const page=()=> {
   const router=useRouter()
   const session=useSession()
   const{  
@@ -58,3 +58,4 @@ export default function page() {
    
   )
 }
+export default page;
