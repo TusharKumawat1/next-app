@@ -6,7 +6,7 @@ import Link from 'next/link'
 import { useRouter } from 'next/navigation';
 
 
-export default function page() {
+const page=()=> {
 
   const [err, setErr] = useState(false)
   const router = useRouter();
@@ -64,3 +64,4 @@ export default function page() {
     </div>
   )
 }
+export default page;
