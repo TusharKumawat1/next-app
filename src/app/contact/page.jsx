@@ -5,7 +5,7 @@ import Button from '@/components/button/Button'
 export default function page() {
   return (
     <div className={styles.container}>
-      <h1 className={styles.title}>Let's keep in touch</h1>
+      <h1 className={styles.title}>Let&apos;s keep in touch</h1>
       <div className={styles.content}>
       <div className={styles.imgContainer}>
         <Image src="/contact.png" alt="img" width={500} height={500}/>

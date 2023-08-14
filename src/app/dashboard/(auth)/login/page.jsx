@@ -5,7 +5,7 @@ import { signIn, useSession } from "next-auth/react";
 import { useRouter, } from "next/navigation";
 import Link from "next/link";
 import { useForm } from 'react-hook-form';
-const page=()=> {
+const Page=()=> {
   const router=useRouter()
   const session=useSession()
   const{  

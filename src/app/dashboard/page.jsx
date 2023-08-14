@@ -7,7 +7,7 @@ import styles from './dash.module.css'
 import Image from "next/image";
 import { useForm } from 'react-hook-form';
 import DeleteIcon from '@mui/icons-material/Delete';
-export default function page() {
+export default function Page() {
   const router = useRouter();
   const session = useSession();
   console.log(session)

@@ -6,7 +6,7 @@ import Link from 'next/link'
 import { useRouter } from 'next/navigation';
 
 
-const page=()=> {
+const Page=()=> {
 
   const [err, setErr] = useState(false)
   const router = useRouter();
