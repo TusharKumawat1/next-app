@@ -9,7 +9,9 @@ const nextConfig = {
       "buildfire.com",
     ],
   },
-
+    env:{
+      NEXTAUTH_URL:"http://localhost:3000",
+    }
 };
 
 module.exports = nextConfig;
