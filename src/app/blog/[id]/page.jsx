@@ -4,7 +4,7 @@ import Image from "next/image";
 import { notFound } from "next/navigation";
 
 async function getData(id) {
-  const res = await fetch(`http://localhost:3000/api/posts/${id}`, {
+  const res = await fetch(`/api/posts/${id}`, {
     cache: "no-store",
   });
 
@@ -25,7 +25,7 @@ export async function generateMetadata({ params }) {
   };
 }
 
-const BlogPost = async ({ params }) => {
+const Page = async ({ params }) => {
   const data = await getData(params.id);
   return (
     <div className={styles.container}>
@@ -64,4 +64,4 @@ const BlogPost = async ({ params }) => {
   );
 };
 
-export default BlogPost;
+export default Page;

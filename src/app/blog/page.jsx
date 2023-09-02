@@ -3,7 +3,7 @@ import styles from './page.module.css'
 import Image from 'next/image'
 import Link from 'next/link'
 async function getData() {
-  const res = await fetch(`http://localhost:3000/api/posts`, {
+  const res = await fetch(`/api/posts`, {
     cache: "no-store",
   });
 
@@ -13,7 +13,7 @@ async function getData() {
 
   return res.json();
 }
-const Blog = async () => {
+const Page = async () => {
   const data = await getData();
   return (
     <div className={styles.container}>
@@ -38,4 +38,4 @@ const Blog = async () => {
   );
 };
 
-export default Blog;
+export default Page;
